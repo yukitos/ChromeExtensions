@@ -9,8 +9,18 @@
     * options/
     * scripts/
     * manifest.json
-    * readme.md
+  * readme.mdだとかimgフォルダだとかは不要です。
 4. UseSameIconInTLの[オプション]を開きます。
 5. 表示したいアイコンのURLを入力して[保存]します。
 6. https://twitter.com をChromeで開きます。
+
+## 補足
+
+* アイコンのURLを空に設定すると元通り表示されるようになります。
+* コードを見ればわかると思いますが、アイコンのURLに指定されたものをそのままimgタグのsrcに入れているだけなので
+  色々大変になることもあるかもしれません。
+
+## 画像はイメージです。
+
+![Screenshot 01][img/ss01.png]
 
