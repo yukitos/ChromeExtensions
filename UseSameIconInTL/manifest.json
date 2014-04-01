@@ -1,0 +1,17 @@
+{
+    "name": "UseSameIconInTL",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Use the same icon in Twitter timeline",
+    "options_page": "options/options.html",
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [ "https://twitter.com/*" ],
+            "js": [ "scripts/jquery.min.js", "scripts/usesameiconintl.user.js" ],
+            "run_at": "document_end"
+        }
+    ]
+}

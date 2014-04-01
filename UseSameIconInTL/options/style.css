@@ -1,0 +1,19 @@
+body {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.maincontent {
+    border: 1px solid #999;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height: 300px auto;
+    padding: 10px;
+}
+.optionitem {
+    margin: 10px;
+}
+.savestatus {
+    text-align: center;
+    bottom: 10px;
+}
