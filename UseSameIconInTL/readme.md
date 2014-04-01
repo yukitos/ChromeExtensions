@@ -22,5 +22,5 @@
 
 ## 画像はイメージです。
 
-![Screenshot 01][img/ss01.png]
+![Screenshot 01](img/ss01.png)
 
